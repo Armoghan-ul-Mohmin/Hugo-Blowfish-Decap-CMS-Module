@@ -4,7 +4,7 @@
   "description": "Hugo Module for Blowfish theme to use Decap CMS ",
   "scripts": {
     "npm-check": "npm-check -u",
-    "decap-dev":"npx decap-server",
+    "decap-dev": "npx decap-server",
     "dev": "hugo server --buildDrafts --buildFuture --buildExpired --gc --logLevel info --watch",
     "prod": "hugo server --buildDrafts --buildFuture --buildExpired --gc --logLevel info --watch  -e production",
     "build": "hugo --gc --logLevel info --cleanDestinationDir --minify"
@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/issues"
   },
-  "homepage": "https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module#readme"
+  "homepage": "https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module#readme",
+  "devDependencies": {
+    "npm-check": "^6.0.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-tailwindcss": "^0.5.12"
+  }
 }
