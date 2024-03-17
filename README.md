@@ -13,3 +13,10 @@
 ## Decap CMS
 
 Decap CMS is a Content Management System designed to work seamlessly with the [Blowfish Theme](https://github.com/nunocoracao/blowfish), a popular website builder theme. It leverages the power of Decap CMS and integrates with Netlify Identity to provide a comprehensive content management solution for your website projects.
+
+## Features
+
+- **Blowfish Theme Integration**: Decap CMS is specifically tailored to integrate smoothly with the Blowfish Theme, ensuring a cohesive and intuitive content management experience.
+- **User-Friendly Interface**: Decap CMS provides a user-friendly interface that allows content editors and administrators to manage website content efficiently without requiring technical expertise.
+- **Netlify Identity Integration**: With Netlify Identity integration, Decap CMS offers secure authentication and user management capabilities, allowing you to control access to content editing features based on user roles.
+- **Flexible Content Management**: Easily create, edit, and publish content such as pages, posts, media files, and more using Decap CMS. The system provides flexible content structuring options to suit your website's needs.
