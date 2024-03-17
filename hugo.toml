@@ -6,3 +6,5 @@ notAlternative = false
 
 [mediaTypes."application/yaml"]
 suffixes = ["yml"]
+
+
