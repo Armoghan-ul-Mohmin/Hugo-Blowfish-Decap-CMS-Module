@@ -1,0 +1,8 @@
+[outputFormats.config]
+baseName = "config"
+isPlainText = true
+mediaType = "application/yaml"
+notAlternative = false
+
+[mediaTypes."application/yaml"]
+suffixes = ["yml"]
