@@ -48,6 +48,19 @@
   </head>
 
   <body class="bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral">
+    <!-- Include the script that builds the page and powers Decap CMS -->
+    {{- with resources.Get "lib/decap-cms.js" }}
+      {{- if eq hugo.Environment "development" }}
+        {{- with . | js.Build }}
+          <script src="{{ .RelPermalink }}"></script>
+        {{- end }}
+      {{- else }}
+        {{- $opts := dict "minify" true }}
+        {{- with . | js.Build $opts | fingerprint }}
+          <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+        {{- end }}
+      {{- end }}
+    {{- end }}
    <!-- Blowfish Js -->
    {{ $jsAppearance := resources.Get "js/appearance.js" }}
    {{ $jsAppearance = $jsAppearance | resources.ExecuteAsTemplate "js/appearance.js" . | resources.Minify | resources.Fingerprint "sha512" }}
