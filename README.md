@@ -64,7 +64,10 @@ Edit your project's configuration file based on the format you are using (YAML, 
    - Edit the `config/_default/params.toml` file to define parameters for your project. For example:
 
  ```toml
+      # Decap Cms Settings
       DecapSettings = true
+      # Blowfish Theme Settings
+      BlowfishSettings = true
      [DecapCMS]
       development = true
       # branch = ""
@@ -77,7 +80,10 @@ Edit your project's configuration file based on the format you are using (YAML, 
  ```
  #### config/_default/params.yaml
  ```yaml
-    DecapSettings : true
+     # Decap Cms Settings
+     DecapSettings: true
+     # Blowfish Theme Settings
+     BlowfishSettings: true
      DecapCMS:
       development: true
       # branch: ""
@@ -91,7 +97,10 @@ Edit your project's configuration file based on the format you are using (YAML, 
  #### config/_default/params.json
  ```json
 {
+  // Decap CMS Settings
   "DecapSettings": true,
+  // Blowfish Theme Settings
+  "BlowfishSettings": true,
   "DecapCMS": {
     "development": true,
     // "branch": "",
