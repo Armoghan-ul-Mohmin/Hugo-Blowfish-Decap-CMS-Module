@@ -1,0 +1,15 @@
+{{- $sectionsList := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $sectionsList = union $sectionsList (slice .Section) -}}
+{{- end -}}
+
+{{- $uniqueSections := slice -}}
+{{- range $sectionsList -}}
+  {{- $uniqueSections = cond (not (in $uniqueSections .)) (union $uniqueSections (slice .)) $uniqueSections -}}
+{{- end -}}
+
+{{- with $uniqueSections -}}
+  {{- range $index, $section := . -}}
+    {{- if $index }},{{ end }}"{{ $section }}"
+  {{- end -}}
+{{- end -}}
