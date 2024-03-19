@@ -1,7 +1,7 @@
 <h1 align="center">Hugo Blowfish Decap CMS Module 🚀</h1>
 <br>
 
-
+[![Deploy Site](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/actions/workflows/hugo.yml/badge.svg)](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/actions/workflows/hugo.yml)
 [![Codacy Security Scan](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/codacy.yml/badge.svg)](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/codacy.yml)
 [![CodeQL](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/codeql.yml/badge.svg)](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/codeql.yml)
 [![Dependency review](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/actions/workflows/dependency-review.yml)
@@ -12,6 +12,8 @@
 
 
 Hugo Blowfish Decap CMS Module is a Content Management System designed to work seamlessly with the [Blowfish Theme](https://github.com/nunocoracao/blowfish), a popular website builder theme. It leverages the power of Decap CMS and integrates with Netlify Identity to provide a comprehensive content management solution for your website projects.
+
+[Demo](https://armoghan-ul-mohmin.github.io/Hugo-Blowfish-Decap-CMS-Starter/admin)
 
 ## Features
 
