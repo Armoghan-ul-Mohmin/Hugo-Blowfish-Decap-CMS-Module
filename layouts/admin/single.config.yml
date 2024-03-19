@@ -161,6 +161,8 @@ collections:
               - { label: "Custom Logo", name: "logo", widget: "string", required: false}
               - { label: "Show Preview links", name: "preview", widget: "boolean", required: true , default: true}
               - { label: "Enable Search", name: "search", widget: "boolean", required: true , default: true}
+              - { label: "Enable Cheatsheets", name: "Cheatsheets", widget: "boolean", required: true , default: true}
+              - { label: "Enable Tutorials", name: "Tutorials", widget: "boolean", required: true , default: true}
 {{ end }}
 
 # Blowfish Theme Settings
