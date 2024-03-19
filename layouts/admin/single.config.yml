@@ -515,7 +515,7 @@ collections:
     create: true
     format: json
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "Name", name: "name", widget: "string", required: true }
       - { label: "Image", name: "image", widget: "image", choose_url: true, required: true }
