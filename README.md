@@ -77,6 +77,8 @@ Edit your project's configuration file based on the format you are using (YAML, 
       # logo = ""
       preview = true
       search = false
+      Cheatsheets = true
+      Tutorials = true
  ```
  #### config/_default/params.yaml
  ```yaml
@@ -93,6 +95,8 @@ Edit your project's configuration file based on the format you are using (YAML, 
       # logo: ""
       preview: true
       search: false
+      Cheatsheets : true
+      Tutorials : true
  ```
  #### config/_default/params.json
  ```json
@@ -109,7 +113,9 @@ Edit your project's configuration file based on the format you are using (YAML, 
     "PublishMode": "editorial_workflow",
     // "logo": "",
     "preview": true,
-    "search": false
+    "search": false,
+    "Cheatsheets" : true,
+    "Tutorials" : true
   }
 }
      
